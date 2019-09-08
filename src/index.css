@@ -139,15 +139,18 @@ img.logo {
   .social-media {
     transform: translateX(-50%);
 }
+
 img.logo {
-  position: relative;
-  left: 25%;
-  transform: translateX(-25%);
-  max-width: 250px;
-  margin-top: 40px;
+    position: relative;
+    left: 0;
+    transform: translateX(0%);
+    max-width: 250px;
+    margin-top: 40px;
 }
 .main-name {
-  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%)!important;
 }
 h3 {
   text-align: center;
