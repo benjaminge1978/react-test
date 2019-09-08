@@ -1,13 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+html {
+  margin:0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Slabo 27px', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+  font-size: 27px;
+}
+
+p {
+  color: #FFF;
+  margin: 0;
+  line-height:1.6;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.maingrid {
+  display: grid;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.addresses {
+  display: grid;
+  position: relative;
+  z-index: 10;
+  align-self: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.bournemouth {
+  grid-row: 2;
+  grid-column: 3 / span 2;
+}
+
+.southbourne {
+  grid-row: 2;
+  grid-column: 5 / span 2;
+}
+
+.main-name {
+  transform: rotate(-5deg);
+  width: 130px;
+  display: block;
+  background: #be2831;
+  padding: 10px;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.southbourne .main-name {
+  transform: rotate(5deg);
+}
+
+.background {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  background: url('./img/espresso-kitchen-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  top: 0;
+}
+
+img.logo {
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+  max-width: 250px;
+}
+
+.main-title {
+  position: relative;
+  z-index: 10;
+  height: auto;
+  grid-row: 1;
+  grid-column: 3 / span 4;
+  justify-self: center;
+  align-self: center;
+}
+
+.title {
+  color: #FFF;
+}
+
+.social-media {
+  position: relative;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.social-icon {
+  display: inline-flex;
+  width: 30px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 938px) {
+  .bournemouth {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+  }
+  
+  .southbourne {
+    grid-row: 2;
+    grid-column: 6 / span 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .addresses {
+    display: block;
+  }
+  .maingrid {
+    display: block;
+    text-align:center;
+  }
+  .social-media {
+    transform: translateX(-50%);
+}
+img.logo {
+  position: relative;
+  left: 25%;
+  transform: translateX(-25%);
+  max-width: 250px;
+  margin-top: 40px;
+}
+.main-name {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
 }
