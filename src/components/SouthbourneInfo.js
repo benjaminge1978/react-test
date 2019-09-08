@@ -8,7 +8,7 @@ function SouthbourneInfo(){
             <p>Bournemouth </p>
             <p>BH6 3RW </p>
                 <br></br>
-                <p>T: T: TBC</p>
+                <p>T: TBC</p>
                 <p><a href ="E: Coffee@espresso.kitchen">mailto:coffee@espresso.kitchen</a> </p>
                 <br></br>
                 <p>Opening Hours: </p>
