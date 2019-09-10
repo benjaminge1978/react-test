@@ -8,8 +8,8 @@ function SouthbourneInfo(){
             <p>Bournemouth </p>
             <p>BH6 3RW </p>
                 <br></br>
-                <p>T:TBC</p>
-                <p><a href ="E: Coffee@espresso.kitchen">mailto:coffee@espresso.kitchen</a> </p>
+                <p>T: T: TBC</p>
+                <p><a href ="mailto:coffee@espresso.kitchen">E: coffee@espresso.kitchen</a> </p>
                 <br></br>
                 <p>Opening Hours: </p>
                 <p>07.30 - 19:30  Mon - Sat </p>

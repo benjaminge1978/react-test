@@ -9,7 +9,7 @@ function BournemoutInfo(){
             <p>BH25RT </p>
                 <br></br>
                 <p>T: 01202 972420</p>
-                <p><a href ="E: Info@espresso.kitchen">mailto:info@espresso.kitchen</a> </p>
+                <p><a href ="mailto:info@espresso.kitchen">E: info@espresso.kitchen</a> </p>
                 <br></br>
                 <p>Opening Hours: </p>
                 <p>07.30 - 19:30  Mon - Sat </p>
